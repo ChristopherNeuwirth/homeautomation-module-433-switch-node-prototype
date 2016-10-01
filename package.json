@@ -1,0 +1,34 @@
+{
+  "name": "node-433mhz-switch-prototype",
+  "version": "0.0.1",
+  "description": "This is a prototype to switch Etekcity switches with javascript",
+  "main": "index.js",
+  "bin": {
+    "switchme": "index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "rpi-433": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Hello World\" && exit 0",
+    "setup": "npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherNeuwirth/homeautomation-module-433-switch-node-prototype.git"
+  },
+  "keywords": [
+    "homeautomation",
+    "node",
+    "prototype",
+    "433mhz",
+    "switch"
+  ],
+  "author": "Christopher Neuwirth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristopherNeuwirth/homeautomation-module-433-switch-node-prototype/issues"
+  },
+  "homepage": "https://github.com/ChristopherNeuwirth/homeautomation-module-433-switch-node-prototype#readme"
+}
