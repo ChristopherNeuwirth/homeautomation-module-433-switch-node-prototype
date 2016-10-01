@@ -1,4 +1,7 @@
-#!/usr/bin/env node --harmony
+#!/bin/sh
+":" //# unix shebang ; exec /usr/bin/env node --harmony "$0" "$@"
+
+//#!/usr/bin/env node --harmony
 'use strict';
 
 let pkg = require('./package.json');
